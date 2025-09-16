@@ -125,9 +125,9 @@ docker volume create postgres-config
 **คำอธิบาย**: Docker Volume จะทำให้ข้อมูลคงอยู่แม้ Container จะถูกลบ
 
 **บันทึกผลการทดลอง - Step 2:**
-```
-ใส่ Screenshot ของผลการรัน docker volume ls และ docker volume inspect postgres-data ที่นี่
-```
+
+<img width="652" height="484" alt="image" src="https://github.com/user-attachments/assets/66bff8a0-bf9d-4132-8189-6b7fdbe2bff6" />
+
 
 ### Step 3: Create PostgreSQL Container with Volume
 
@@ -148,9 +148,9 @@ docker volume create postgres-config
 - `-c shared_buffers=256MB`: กำหนด shared buffers
 
 **บันทึกผลการทดลอง - Step 3:**
-```
-ใส่ Screenshot ของผลการรัน docker run ที่นี่
-```
+
+<img width="558" height="226" alt="image" src="https://github.com/user-attachments/assets/6d9f6f3e-b537-4319-b3eb-27223fba6875" />
+
 
 ### Step 4: Verify Container Status and Resource Usage
 
@@ -169,12 +169,14 @@ docker volume inspect postgres-data
 ```
 
 **บันทึกผลการทดลอง - Step 4:**
-```
+
 ใส่ Screenshot ของ:
-1. ผลการรัน docker ps
-2. ส่วนหนึ่งของ docker logs postgres-lab
-3. ผลการรัน docker stats
-```
+<img width="1339" height="105" alt="Screenshot 2025-09-16 125318" src="https://github.com/user-attachments/assets/d01bd818-4b01-456a-93e1-7224500331e8" />
+<img width="1540" height="738" alt="Screenshot 2025-09-16 125434" src="https://github.com/user-attachments/assets/500dea26-0b40-466a-9939-87a95700e6d2" />
+<img width="988" height="125" alt="Screenshot 2025-09-16 125511" src="https://github.com/user-attachments/assets/1fd4ebec-7d8d-46d3-b729-0f35c4b8f6f1" />
+<img width="866" height="390" alt="Screenshot 2025-09-16 125539" src="https://github.com/user-attachments/assets/c87ebf99-fd96-465c-95c0-3016897acb18" />
+
+
 
 ### Step 5: Connect to PostgreSQL และตรวจสอบ Configuration
 
