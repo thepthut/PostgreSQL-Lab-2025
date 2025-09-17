@@ -1,4 +1,4 @@
-<img width="903" height="394" alt="image" src="https://github.com/user-attachments/assets/c0cdf4e5-184f-4ae2-8b4b-b9b22f6d90e5" /><img width="902" height="206" alt="image" src="https://github.com/user-attachments/assets/f3a19bee-60ab-4a2f-a579-df4e73b453ad" /><img width="938" height="664" alt="image" src="https://github.com/user-attachments/assets/574d4e8f-89e4-48b7-8de7-5fac426e82fe" /># Lab 01: PostgreSQL Docker Setup and Basic Operations
+# Lab 01: PostgreSQL Docker Setup and Basic Operations
 
 ## วัตถุประสงค์
 1. ติดตั้งและใช้งาน PostgreSQL ผ่าน Docker
@@ -216,7 +216,7 @@ WHERE name IN ('shared_buffers', 'work_mem', 'maintenance_work_mem', 'effective_
 ```
 
 **บันทึกผลการทดลอง - Step 5:**
-```
+
 ใส่ Screenshot ของ:
 1. ผลการรัน SELECT version();
 <img width="908" height="267" alt="Screenshot 2025-09-17 175207" src="https://github.com/user-attachments/assets/9292fb50-dce1-46b6-9812-82d5f009911c" />
@@ -228,7 +228,7 @@ WHERE name IN ('shared_buffers', 'work_mem', 'maintenance_work_mem', 'effective_
 
 <img width="712" height="165" alt="image" src="https://github.com/user-attachments/assets/2a5f62fa-ef00-46bc-8b80-fcf33ca6abab" />
 
-```
+
 
 ### Step 6: Database Management Operations
 
@@ -331,7 +331,7 @@ WHERE r.rolname NOT LIKE 'pg_%';
 ```
 
 **บันทึกผลการทดลอง - Step 7:**
-```
+
 ใส่ Screenshot ของ:
 1. ผลการสร้าง users ทั้งหมด
 <img width="582" height="645" alt="image" src="https://github.com/user-attachments/assets/cf351150-4ad6-4a47-998f-a4202a2fe433" />
@@ -342,7 +342,7 @@ WHERE r.rolname NOT LIKE 'pg_%';
 3. ผลการ query pg_roles
 <img width="880" height="456" alt="image" src="https://github.com/user-attachments/assets/32321883-38c6-42ac-9fe8-b2124ea61c5e" />
 
-```
+
 
 ### Step 8: การจัดการสิทธิ์ User
 
